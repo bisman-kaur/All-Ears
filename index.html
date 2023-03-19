@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>HACKATHON PROJECT</title>
+        <link rel="stylesheet"href="style.css">
+    </head>
+    <body>
+        <h1>
+            ALL EARS
+        </h1>
+        <p>All Ears is a webpage that we created in order to help deaf/mute people. It has many uses in a deaf/mute person's day to day life. When you click on the "Click to record" button, you can record someone's voice and what they said will print on your screen. When you click the "Click when done typing" button, it will say whatever the user wrote on the screen out loud. </p>
+        <hr>
+        <br>
+        <form>
+            <label id="label" for="language">What language? (enter en(english), es(spanish), fr(french), hi(hindi), ru(russian)), ta(tamil), te(telugu), it(italian), fi(filipino) </label><br>
+            <br>
+            <input type="text" id="language">
+        </form>
+        <img src="ear-nutraceutical-insurance-solutions-supplement-insurance-12.png">
+        <br><br>
+        <span>
+            <button id ="listen" onclick="listen();"> Click To Record </button>
+            <textarea id="textbox"></textarea>
+        </span>
+        <hr>
+        <br>
+        <div>
+            <div class="pull-left" style="margin-right:5px">
+                <button id="say" onclick="say();"> Click When Done Typing </button>
+            </div>
+            <div>
+                <div class="input-group">
+                    <label id="label" for="fname">Type here: </label>
+                    <input type="text" id="fname">
+                </div>
+            </div>
+        </div>
+            
+
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </body>
+</html>
